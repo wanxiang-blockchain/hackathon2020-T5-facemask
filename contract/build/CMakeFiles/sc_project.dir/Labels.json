@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/colin/Workspace/src/sc/build/CMakeFiles/sc_project"
+		},
+		{
+			"file" : "/home/colin/Workspace/src/sc/build/CMakeFiles/sc_project.rule"
+		},
+		{
+			"file" : "/home/colin/Workspace/src/sc/build/CMakeFiles/sc_project-complete.rule"
+		},
+		{
+			"file" : "/home/colin/Workspace/src/sc/build/sc_project-prefix/src/sc_project-stamp/sc_project-install.rule"
+		},
+		{
+			"file" : "/home/colin/Workspace/src/sc/build/sc_project-prefix/src/sc_project-stamp/sc_project-mkdir.rule"
+		},
+		{
+			"file" : "/home/colin/Workspace/src/sc/build/sc_project-prefix/src/sc_project-stamp/sc_project-download.rule"
+		},
+		{
+			"file" : "/home/colin/Workspace/src/sc/build/sc_project-prefix/src/sc_project-stamp/sc_project-update.rule"
+		},
+		{
+			"file" : "/home/colin/Workspace/src/sc/build/sc_project-prefix/src/sc_project-stamp/sc_project-patch.rule"
+		},
+		{
+			"file" : "/home/colin/Workspace/src/sc/build/sc_project-prefix/src/sc_project-stamp/sc_project-configure.rule"
+		},
+		{
+			"file" : "/home/colin/Workspace/src/sc/build/sc_project-prefix/src/sc_project-stamp/sc_project-build.rule"
+		},
+		{
+			"file" : "/home/colin/Workspace/src/sc/build/sc_project-prefix/src/sc_project-stamp/sc_project-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sc_project"
+		],
+		"name" : "sc_project"
+	}
+}

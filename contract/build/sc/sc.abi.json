@@ -1,0 +1,42 @@
+[
+    {
+        "name": "init",
+        "inputs": [],
+        "outputs": [],
+        "constant": "false",
+        "type": "function"
+    },
+    {
+        "name": "set",
+        "inputs": [
+            {
+                "name": "msg",
+                "type": "string"
+            }
+        ],
+        "outputs": [],
+        "constant": "false",
+        "type": "function"
+    },
+    {
+        "name": "get",
+        "inputs": [],
+        "outputs": [
+            {
+                "name": "",
+                "type": "string"
+            }
+        ],
+        "constant": "true",
+        "type": "function"
+    },
+    {
+        "name": "set",
+        "inputs": [
+            {
+                "type": "string"
+            }
+        ],
+        "type": "event"
+    }
+]

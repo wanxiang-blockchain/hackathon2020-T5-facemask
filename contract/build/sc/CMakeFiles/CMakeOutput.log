@@ -1,0 +1,104 @@
+The target system is: Generic -  - wasm
+The host system is: Linux - 5.4.0-52-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/platone.cdt/bin/platone-cpp 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+error: invalid argument '-std=c++17' not allowed with 'C'
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "platonecpp.log"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/platone.cdt/bin/platone-cpp 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+error: invalid argument '-std=c++17' not allowed with 'C'
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "platonecpp.log"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/platone.cdt/bin/platone-cpp 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.wasm"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "platonecpp.log"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/platone.cdt/bin/platone-cpp 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.wasm"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "platonecpp.log"
+
+The target system is: Generic -  - wasm
+The host system is: Linux - 5.4.0-52-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/platone.cdt/bin/platone-cpp 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+error: invalid argument '-std=c++17' not allowed with 'C'
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "platonecpp.log"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/platone.cdt/bin/platone-cpp 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+error: invalid argument '-std=c++17' not allowed with 'C'
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "platonecpp.log"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/platone.cdt/bin/platone-cpp 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.wasm"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "platonecpp.log"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/platone.cdt/bin/platone-cpp 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.wasm"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "platonecpp.log"
+

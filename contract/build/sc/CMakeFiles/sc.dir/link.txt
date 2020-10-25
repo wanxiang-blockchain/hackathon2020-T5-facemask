@@ -1,0 +1,1 @@
+/usr/local/platone.cdt/bin/platone-ld -export-file=/home/colin/Workspace/src/sc/build/sc/sc.exports CMakeFiles/sc.dir/sc.obj -o sc.wasm 

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/colin/Workspace/src/sc/src/sc.cpp
+stdlib.h
+-
+string.h
+-
+string
+-
+bcwasm/bcwasm.hpp
+-
+

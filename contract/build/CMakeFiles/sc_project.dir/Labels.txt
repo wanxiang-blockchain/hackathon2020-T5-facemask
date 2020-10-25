@@ -1,0 +1,14 @@
+# Target labels
+ sc_project
+# Source files and their labels
+/home/colin/Workspace/src/sc/build/CMakeFiles/sc_project
+/home/colin/Workspace/src/sc/build/CMakeFiles/sc_project.rule
+/home/colin/Workspace/src/sc/build/CMakeFiles/sc_project-complete.rule
+/home/colin/Workspace/src/sc/build/sc_project-prefix/src/sc_project-stamp/sc_project-install.rule
+/home/colin/Workspace/src/sc/build/sc_project-prefix/src/sc_project-stamp/sc_project-mkdir.rule
+/home/colin/Workspace/src/sc/build/sc_project-prefix/src/sc_project-stamp/sc_project-download.rule
+/home/colin/Workspace/src/sc/build/sc_project-prefix/src/sc_project-stamp/sc_project-update.rule
+/home/colin/Workspace/src/sc/build/sc_project-prefix/src/sc_project-stamp/sc_project-patch.rule
+/home/colin/Workspace/src/sc/build/sc_project-prefix/src/sc_project-stamp/sc_project-configure.rule
+/home/colin/Workspace/src/sc/build/sc_project-prefix/src/sc_project-stamp/sc_project-build.rule
+/home/colin/Workspace/src/sc/build/sc_project-prefix/src/sc_project-stamp/sc_project-test.rule

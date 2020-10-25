@@ -1,0 +1,20 @@
+[http]
+ip = "127.0.0.1"
+port = "9999"
+# must be "release" or "debug" or "test"
+mode = "test"
+
+[log]
+# trace < debug < info < warn < error < fatal < panic
+level = "debug"
+# std | file
+output = "std"
+filepath = "./data-manager.log"
+
+[db]
+ip = "127.0.0.1"
+port = "27017"
+username = "root"
+password = "root"
+dbname = "data-manager"
+

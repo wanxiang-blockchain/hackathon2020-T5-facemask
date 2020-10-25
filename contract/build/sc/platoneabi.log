@@ -1,0 +1,48 @@
+2020-10-24_16:03:50.479584: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:328] start run
+2020-10-24_16:03:50.479940: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:90] start create_find_macro_factory
+2020-10-24_16:03:54.339487: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/tools/abi/AbiMacro.cpp:77] get EVENT:BCWASM_EVENT
+2020-10-24_16:03:54.359191: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/tools/abi/AbiMacro.cpp:84] token name:BCWASM_ABI
+2020-10-24_16:03:54.360307: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/tools/abi/AbiMacro.cpp:109] macrostr:BCWASM_ABI(demo::sc, set)  contract:demo::sc  actions_str:set
+
+2020-10-24_16:03:54.360353: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/tools/abi/AbiMacro.cpp:84] token name:BCWASM_ABI
+2020-10-24_16:03:54.361727: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/tools/abi/AbiMacro.cpp:109] macrostr:BCWASM_ABI(demo::sc, get)  contract:demo::sc  actions_str:get
+
+2020-10-24_16:03:54.361814: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/tools/abi/AbiMacro.cpp:84] token name:BCWASM_ABI
+2020-10-24_16:03:54.362809: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/tools/abi/AbiMacro.cpp:109] macrostr:BCWASM_ABI(demo::sc, init)  contract:demo::sc  actions_str:init
+
+2020-10-24_16:03:54.372376: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:330] the result is 0
+2020-10-24_16:03:54.372422: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:331] the contractDef.name is sc
+2020-10-24_16:03:54.372434: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:337] result:0contract fullname:[demo::sc]
+2020-10-24_16:03:54.372444: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:341] contract:sc  action:set
+2020-10-24_16:03:54.372453: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:341] contract:sc  action:get
+2020-10-24_16:03:54.372461: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:341] contract:sc  action:init
+2020-10-24_16:03:57.913512: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/tools/abi/AbiGenerator.cpp:59] contract != Token
+2020-10-24_16:03:57.913563: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/tools/abi/AbiGenerator.cpp:61] decl name:[sc] contract:[sc]
+2020-10-24_16:03:57.913577: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/tools/abi/AbiGenerator.cpp:69] method :init
+2020-10-24_16:03:57.913727: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/tools/abi/AbiGenerator.cpp:50] typeName:  realTypeName:void
+2020-10-24_16:03:57.913738: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/tools/abi/AbiGenerator.cpp:69] method :set
+2020-10-24_16:03:57.913861: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/tools/abi/AbiGenerator.cpp:50] typeName:  realTypeName:void
+2020-10-24_16:03:57.913870: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/tools/abi/AbiGenerator.cpp:81] parame name:msg
+2020-10-24_16:03:57.914006: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/tools/abi/AbiGenerator.cpp:50] typeName:  realTypeName:const char *
+2020-10-24_16:03:57.914601: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/tools/abi/AbiGenerator.cpp:69] method :get
+2020-10-24_16:03:57.914739: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/tools/abi/AbiGenerator.cpp:50] typeName:  realTypeName:const char *
+2020-10-24_16:03:57.914753: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/tools/abi/AbiGenerator.cpp:92] abis size:3
+2020-10-24_16:03:58.142786: <info> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:352] find method successfind abi size:3
+2020-10-24_16:03:58.142810: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:356] methodName:init args:(
+2020-10-24_16:03:58.142815: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:365] )
+2020-10-24_16:03:58.142819: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:366] return typeName: realTypeName:void
+2020-10-24_16:03:58.142823: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:356] methodName:set args:(
+2020-10-24_16:03:58.142827: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:361] name:msg, typeName: realTypeName:const char *
+2020-10-24_16:03:58.142831: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:365] )
+2020-10-24_16:03:58.142834: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:366] return typeName: realTypeName:void
+2020-10-24_16:03:58.142838: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:356] methodName:get args:(
+2020-10-24_16:03:58.142841: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:365] )
+2020-10-24_16:03:58.142844: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:366] return typeName: realTypeName:const char *
+2020-10-24_16:03:58.142848: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:370] start create abi json
+2020-10-24_16:03:58.142855: <error> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:130] random:[/tmp/icgf5ge7c7ia418hah19] fileName:sc.cpp.abi.json
+2020-10-24_16:03:58.142859: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:132] tmpFile:[/tmp/icgf5ge7c7ia418hah19/sc.cpp.abi.json]
+2020-10-24_16:03:58.144371: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:142] copy ::/tmp/icgf5ge7c7ia418hah19/sc.cpp.abi.json to ::/home/colin/Workspace/src/sc/build/sc/sc.abi.json
+2020-10-24_16:03:58.144433: <error> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:160] random:[/tmp/icgf5ge7c7ia418hah19] fileName:sc.cpp.exports
+2020-10-24_16:03:58.144440: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:162] tmpFile:[/tmp/icgf5ge7c7ia418hah19/sc.cpp.exports]
+2020-10-24_16:03:58.144474: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:176] copy ::/tmp/icgf5ge7c7ia418hah19/sc.cpp.exports to ::/home/colin/Workspace/src/sc/build/sc/sc.exports
+2020-10-24_16:03:58.144544: <debug> [/home/wxuser/WorkSpace/PlatONE-CDT/build/tools/platone-abigen.cpp:226] swap src::/home/colin/Workspace/src/sc/src/sc.cpp tmp::/tmp/icgf5ge7c7ia418hah19/sc.cpp

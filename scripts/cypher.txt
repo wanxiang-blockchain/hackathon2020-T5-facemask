@@ -1,0 +1,13 @@
+LOAD CSV FROM "file:///f1.csv" AS row
+merge (c1:MidCompany{name:row[1]})
+merge (p:Product{name:row[2]})
+merge (c2:UpCompany{name:row[3]})
+merge (c2)-[:PRODUCE]->(p)
+merge (p)-[:SUPPLY]->(c1)
+
+LOAD CSV FROM "file:///f2.csv" AS row
+merge (c1:DownCompany{name:row[1]})
+merge (p:Product{name:row[2]})
+merge (c2:MidCompany{name:row[3]})
+merge (c2)-[:PRODUCE]->(p)
+merge (p)-[:SUPPLY]->(c1)

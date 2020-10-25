@@ -1,0 +1,11 @@
+# Hashes of file build rules.
+d3191fb5c1a71c467c79af6c35d18316 CMakeFiles/sc_project
+2d48da8f227d4468fbecea26444897c4 CMakeFiles/sc_project-complete
+c97869a8e0cbf4967db1978fd3782522 sc_project-prefix/src/sc_project-stamp/sc_project-build
+ec7ab6007784b9716bc8b5b38b5c8a67 sc_project-prefix/src/sc_project-stamp/sc_project-configure
+4835c08fa335f7c1fdfe65d9899882b9 sc_project-prefix/src/sc_project-stamp/sc_project-download
+729f54bd1dd427ff7ad5cb3063a69a40 sc_project-prefix/src/sc_project-stamp/sc_project-install
+6057b933384805230acc0088c37f4245 sc_project-prefix/src/sc_project-stamp/sc_project-mkdir
+73e30a42b297eb317c86400718f6a86c sc_project-prefix/src/sc_project-stamp/sc_project-patch
+7ca7833fcb1ff0e3a1d33e7cc8a3bd47 sc_project-prefix/src/sc_project-stamp/sc_project-test
+8674c83a4b28ef8f2a8441759e8d352c sc_project-prefix/src/sc_project-stamp/sc_project-update

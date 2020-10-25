@@ -1,0 +1,62 @@
+syntax = "proto3";
+option go_package = ".;proto";
+
+// --------------------------------------------------------------------------------------------------------------------------------------------------
+service Node {
+    rpc New (NodeNewRequest) returns (NodeNewResponse);
+    rpc Start (NodeStartRequest) returns (NodeStartResponse);
+    rpc Stop (NodeStopRequest) returns (NodeStopResponse);
+    rpc ReStart (NodeRestartRequest) returns (NodeRestartResponse);
+}
+
+message NodeNewRequest{
+  string groupid      = 1;
+  string chainid      = 2;
+  string ip           = 3;
+  string port         = 4;
+  string rpcport      = 5;
+  string wsport       = 6;
+  string dashport  		= 7;
+  string password     = 8;
+  string creatorEnode	= 9;
+	string bootnodes		= 10;
+}
+
+message NodeNewResponse{
+	string result   = 1;
+  string message  = 2;
+  string pubkey   = 3;
+}
+
+
+message NodeStartRequest {
+  string groupid  = 1;
+}
+
+message NodeStartResponse {
+	string result   = 1;
+	string message  = 2;
+}
+
+message NodeStopRequest {
+  string groupid  = 1;
+}
+
+message NodeStopResponse {
+  string result   = 1;
+	string message  = 2;
+}
+
+message NodeRestartRequest {
+  string groupid  = 1;
+}
+
+message NodeRestartResponse {
+	string result   = 1;
+	string message  = 2;
+}
+
+// 多线程调用脚步要加锁
+
+//protoc --go_out=plugins=grpc:. *.proto
+

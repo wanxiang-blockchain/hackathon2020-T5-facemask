@@ -1,0 +1,1 @@
+cmd='/snap/cmake/619/bin/cmake;-DCMAKE_TOOLCHAIN_FILE=/usr/local/platone.cdt/lib/cmake/platone.cdt/PlatoneWasmToolchain.cmake;-DPLATONE_CDT_ROOT=/usr/local/platone.cdt;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

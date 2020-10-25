@@ -1,0 +1,3 @@
+/home/colin/Workspace/src/sc/build/sc/CMakeFiles/rebuild_cache.dir
+/home/colin/Workspace/src/sc/build/sc/CMakeFiles/sc.dir
+/home/colin/Workspace/src/sc/build/sc/CMakeFiles/edit_cache.dir

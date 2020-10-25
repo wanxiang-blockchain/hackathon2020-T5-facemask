@@ -1,0 +1,24 @@
+[http]
+ip = "127.0.0.1"
+port = "9999"
+# must be "release" or "debug" or "test"
+mode = "debug"
+endpoint = "http://127.0.0.1:6791"
+passphrase = "0"
+restServer = "http://127.0.0.1:8000"
+capath = "/Users/night/dev/go/src/platone-api-server/model/monitor/keys/ca.cert"
+
+[log]
+# trace < debug < info < warn < error < fatal < panic
+level = "debug"
+# std | file
+output = "std"
+filepath = "./data-manager.log"
+
+[db]
+ip = "127.0.0.1"
+port = "27017"
+username = "root2"
+password = "root"
+dbname = "api-server"
+
