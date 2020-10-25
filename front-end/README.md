@@ -1,5 +1,3 @@
-# PlatONE-Manager
-
 ### Usage
 
 ```shell
