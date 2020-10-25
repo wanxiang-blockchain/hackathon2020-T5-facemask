@@ -1,0 +1,22 @@
+<mat-card class="add-node-card">
+  <mat-card-header>
+    <mat-card-title>工业认知互联网构建</mat-card-title>
+    <mat-card-subtitle>汽车行业供应链数据</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <div class="grid-v1">
+      <ag-grid-angular
+        #agGrid id="v1"
+        class="ag-theme-alpine"
+        style="width:100%; height:500px"
+        [defaultColDef]="defaultColDef"
+        [rowData]="rowData"
+        (gridReady)="onGridReady($event)"
+        [columnDefs]="columnDefs"
+      ></ag-grid-angular>
+    </div>
+
+
+  </mat-card-content>
+</mat-card>
+

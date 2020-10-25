@@ -1,0 +1,19 @@
+<mat-horizontal-stepper [linear]="isLinear" #stepper>
+  <mat-step [stepControl]="firstFormGroup">
+    <ng-template matStepLabel>采集数据</ng-template>
+    <step-addnode></step-addnode>
+  </mat-step>
+  <mat-step [stepControl]="secondFormGroup">
+    <ng-template matStepLabel>数据上链</ng-template>
+    <step-onblock></step-onblock>
+  </mat-step>
+  <mat-step [stepControl]="secondFormGroup">
+    <ng-template matStepLabel>构建图谱</ng-template>
+    <step-graph></step-graph>
+  </mat-step>
+
+  <mat-step>
+    <ng-template matStepLabel>认知分析</ng-template>
+    <step-analysis></step-analysis>
+  </mat-step>
+</mat-horizontal-stepper>

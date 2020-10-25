@@ -1,0 +1,40 @@
+<mat-card class="onblock-step">
+  <mat-card-header>
+    <mat-card-title (click)="onBoarding()">经营信息上区块链</mat-card-title>
+    <!--<mat-card-subtitle>请输入相关信息</mat-card-subtitle>-->
+  </mat-card-header>
+  <mat-card-content class="onblock-container">
+    <form>
+      <!--<mat-form-field>-->
+        <!--<mat-label>区块链入口</mat-label>-->
+        <!--<input matInput>-->
+      <!--</mat-form-field>-->
+      <!--<mat-form-field>-->
+        <!--<mat-label>加密公钥</mat-label>-->
+        <!--<input matInput>-->
+      <!--</mat-form-field>-->
+      <mat-form-field>
+        <mat-chip-list aria-label="graph selection">
+          <mat-chip>供货信息</mat-chip>
+          <mat-chip>经销信息</mat-chip>
+          <mat-chip>结算信息</mat-chip>
+        </mat-chip-list>
+      </mat-form-field>
+    </form>
+  </mat-card-content>
+</mat-card>
+
+
+<div class="grid-v2">
+  <ag-grid-angular
+    #agGridV2 id="v2"
+    class="ag-theme-alpine"
+    style="width:100%; height:500px"
+    [defaultColDef]="defaultColDef"
+    [rowData]="rowDataV2"
+    (gridReady)="onGridReadyV2($event)"
+    [columnDefs]="columnDefs"
+  ></ag-grid-angular>
+</div>
+
+

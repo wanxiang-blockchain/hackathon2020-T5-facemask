@@ -1,0 +1,10 @@
+{
+  "/graphs": {
+    "target": "http://10.20.205.167:8080",
+    "secure": false
+  },
+  "/gremlin": {
+    "target": "http://10.20.205.167:8080",
+    "secure": false
+  }
+}
